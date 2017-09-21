@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/activity_gone_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="100dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.micro.constraintlayoutdome.GoneMarginActivity">
+
+    <TextView
+        android:id="@+id/id_tv1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="A"
+        android:textSize="30sp"/>
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="B"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toRightOf="@id/id_tv1"
+        app:layout_goneMarginLeft="150dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="btn"
+        android:text="Gone一下"
+        app:layout_constraintTop_toBottomOf="@id/id_tv1"
+        app:layout_goneMarginTop="90dp"/>
+
+
+</android.support.constraint.ConstraintLayout>
