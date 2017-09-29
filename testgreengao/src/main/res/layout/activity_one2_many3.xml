@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_one2_many3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.micro.testgreengao.ui.Many2Many2Activity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/btn_add"
+        android:onClick="addBtn"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:onClick="loadData"
+        android:text="@string/str_load_data"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/id_tv_info"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

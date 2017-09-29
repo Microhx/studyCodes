@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">"TestGreenGao "</string>
+    <string name="add_db">数据库基本操作</string>
+    <string name="stu_name">学生姓名</string>
+    <string name="stu_age">学生年龄</string>
+    <string name="btn_add">添加</string>
+    <string name="btn_load_all">获取全部学生信息</string>
+    <string name="btn_update">修改学生信息</string>
+    <string name="add_query">查询操作</string>
+    <string name="add_multi_annotation">多注解</string>
+    <string name="add_person_idcard">添加人和身份证号</string>
+    <string name="add_to_one">一对一模型</string>
+    <string name="add_to_many">一对多（一）</string>
+    <string name="str_load_data">加载数据</string>
+    <string name="add_to_many2">一对多（二）</string>
+    <string name="add_to_many3">一对多（三）</string>
+    <string name="btn_delete">删除</string>
+    <string name="update_db">更新数据库</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/activity_query"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.micro.testgreengao.ui.QueryActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/id_tv_info"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/btn_load_all"
+        android:onClick="btnLoadAll"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="通过Id查找"
+        android:onClick="btnGetById"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="通过SQL查找"
+        android:onClick="btnGetBySQL"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="通过queryBuilder查找"
+        android:onClick="btnGetByQueryBuilder"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="通过queryBuilder查找2"
+        android:onClick="btnGetByQueryBuilder2"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>

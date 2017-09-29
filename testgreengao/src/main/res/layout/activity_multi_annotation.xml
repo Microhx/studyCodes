@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_multi_annotation"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.micro.testgreengao.ui.MultiAnnotationActivity">
+
+
+    <TextView
+        android:id="@+id/id_tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/btn_add"
+        android:onClick="btnAdd"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="@string/btn_load_all"
+        android:onClick="btnLoadAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

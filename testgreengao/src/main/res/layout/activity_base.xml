@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_base"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.micro.testgreengao.ui.BaseActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/add_db"
+        android:onClick="CRUD"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/add_query"
+        android:onClick="query"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/add_multi_annotation"
+        android:onClick="multiAnnotation"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/add_to_one"
+        android:onClick="toOneModel"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/add_to_many"
+        android:onClick="toManyModel2"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/add_to_many2"
+        android:onClick="toManyModel3"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/add_to_many3"
+        android:onClick="toManyModel4"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/update_db"
+        android:onClick="updateDb"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
