@@ -1,3 +1,3 @@
 
-多个颜色的TabLayoutDome
-<img src='constraintlayoutdome/screen/tabLayoutDome.gif' width="200" height="350" />
+多个颜色的TabLayoutDome<br/>
+<img src='constraintlayoutdome/screen/tabLayoutDome.gif' width="400" height="700" />
