@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyDome</string>
+    <string name="str_water_image">水印</string>
+    <string name="str_tab_layout">TabLayout</string>
+</resources>

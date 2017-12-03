@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.zhongwu.mydome.MainActivity">
+
+ <ImageView
+     android:layout_width="match_parent"
+     android:scaleType="fitXY"
+     android:id="@+id/id_image1"
+     android:layout_height="200dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        />
+
+ <ImageView
+     android:layout_width="match_parent"
+     android:scaleType="fitXY"
+     android:id="@+id/id_image2"
+     android:layout_height="200dp" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="add water mark"
+        android:onClick="addWaterMark"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
