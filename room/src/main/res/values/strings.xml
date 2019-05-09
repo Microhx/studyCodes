@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Room</string>
+    <string name="btn_save_data">saveData</string>
+    <string name="btn_query_data">queryData</string>
+    <string name="person_and_address">用户地址</string>
+    <string name="person_and_address_add">用户地址添加</string>
+    <string name="person_and_address_update">用户地址更新</string>
+    <string name="person_and_address_query">用户地址搜索</string>
+    <string name="person_and_address_delete">用户地址删除、</string>
+    <string name="song_add">歌曲添加</string>
+    <string name="song_query">歌曲查询</string>
+</resources>

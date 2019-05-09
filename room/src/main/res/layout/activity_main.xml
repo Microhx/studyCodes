@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_query_data"
+            android:onClick="queryData"
+    />
+
+
+    <Button android:layout_width="match_parent"
+            android:text="@string/btn_save_data"
+            android:onClick="saveData"
+            android:layout_height="wrap_content"/>
+
+
+    <Button android:layout_width="match_parent"
+            android:text="@string/person_and_address_add"
+            android:onClick="personAndAddressAdd"
+            android:layout_height="wrap_content"/>
+
+    <Button android:layout_width="match_parent"
+            android:text="@string/person_and_address_update"
+            android:onClick="personAndAddressUpdate"
+            android:layout_height="wrap_content"/>
+
+    <Button android:layout_width="match_parent"
+            android:text="@string/person_and_address_query"
+            android:onClick="personAndAddressQuery"
+            android:layout_height="wrap_content"/>
+
+    <Button android:layout_width="match_parent"
+            android:text="@string/person_and_address_delete"
+            android:onClick="personAndAddressDelete"
+            android:layout_height="wrap_content"/>
+
+
+    <Button android:layout_width="match_parent"
+            android:text="@string/song_add"
+            android:onClick="songAdd"
+            android:layout_height="wrap_content"/>
+
+    <Button android:layout_width="match_parent"
+            android:text="@string/song_query"
+            android:onClick="songQuery"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
