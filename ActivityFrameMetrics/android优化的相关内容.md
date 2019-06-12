@@ -1,8 +1,8 @@
 ### 相关检测方案
-1. 对于Android 7.0以上版本可以使用 FrameMetrics检测，具体可参见开源库：
+1. 对于Android 7.0以上版本可以使用 FrameMetrics检测，具体可参见开源库：<br/>
   https://github.com/frogermcs/ActivityFrameMetrics
 
-2. 检测组件的初始化时间，可以得到非常多的优化。可以参见组件库：
+2. 检测组件的初始化时间，可以得到非常多的优化。可以参见组件库：<br/>
   https://github.com/InflationX/ViewPump   
 
 ### 相关优化建议
